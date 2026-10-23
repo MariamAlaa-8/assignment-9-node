@@ -1,0 +1,15 @@
+{
+  "name": "new-folder-(4)",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start:dev": "concurrently \"tsc --watch\" \"node dist/main.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
